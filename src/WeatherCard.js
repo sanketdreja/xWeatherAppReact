@@ -2,7 +2,7 @@ import React from "react";
 
 const WeatherCard = ({ data }) => {
   return (
-    <div>
+    <div  className="weather-cards">
       <div className="weather-card">
         <p>Temperature: {data.temp_c}°C</p>
       </div>
